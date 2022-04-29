@@ -1,0 +1,214 @@
+/* .logo{
+    background-image: url(/images/spotify-logo.png);
+    display: inline;
+    width: 100px;
+    right: 100px;
+    padding: 100px;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{   
+    background-size: auto;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px;
+     
+}
+
+
+.box1{
+    background-image: url(images/spotify-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    float: left;
+    height: 60px;
+    width: 100%;
+    display: inline-block ;
+    background-color: rgb(45, 46, 46);
+    
+    
+    
+    
+   
+}
+img{
+    height: 40px;
+    margin: 20px 60px;
+}
+
+.menu{
+    margin: 20px;     
+    text-align: right;   
+}
+
+a{    
+    text-decoration: none;
+    color: beige;
+    margin-right: 30px; 
+}
+
+.box2{
+    background-image:url(images/landing.jpg);
+    background-attachment: fixed;
+    max-width:100%;
+    height:800px;
+    background-size: 100% 100% ;
+    background-repeat:no-repeat;
+    text-align: center;
+    color: white;    
+}
+
+.titulo{
+    font-size: 90px;
+    padding-top: 300px;
+}
+.texto1{    
+    font-size: 20px;
+    margin: 20px 500px
+}
+
+.box3{
+    text-align: center;
+}
+
+.box4{
+    margin: 5px 5px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.bot{
+
+    margin: 5px 5px;
+    color: #1ab16a;
+    max-width: 200px;
+    /* border: solid 2px yellow; */
+}
+
+.box5{
+    background-color: #1ab16a;
+}
+.app{
+    width: 80%;
+    height: 600px;      
+    background: url(images/spotify-app.jpg), url(images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: right, center;
+    background-size: contain, 200px;
+    border: solid 150px #1ab16a ;
+    color: white;
+    margin-left: 100px;
+    
+}
+
+h4{    
+    color: silver;    
+}
+
+h1{
+    width: 100%;
+    text-decoration-line: underline ;
+    text-underline-position: under;
+    -moz-text-decoration-line: underline ;
+    margin-bottom: 100px;
+}
+
+@media(max-width: 1300px){
+    .menu{
+        width: 100%;
+        margin:20px 0;
+    }
+
+    .box1{ 
+        width: 100%;
+        display: block;
+        background-image: none;
+        text-align: center;         
+   }
+
+   .menu{
+       display: flex;
+       justify-content: space-evenly;
+       
+   }
+
+   a{
+       margin: 0px;
+   }
+
+   .box2{ 
+    background-size: cover;
+    background-position: center;
+   
+    
+     
+}
+   .texto1{
+      
+        width: 90%;
+        margin: auto; 
+        
+             
+    }
+
+    .titulo{
+        width: 100%;
+        margin-bottom: 50px; 
+        font-size: 50px;
+        
+
+    }
+   .box4{
+        display: block;
+        width: 100%;
+        display: block;
+        margin: 20px auto;      
+   }
+
+   .bot{
+       margin: 0px auto;
+   }
+   .app{
+       border: 0px ;  
+       margin: 0px auto;    
+       background-image: none;
+       padding-top: 20px;
+       background-image: url(images/spotify-icon-white.png);
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: bottom;
+
+   }
+
+ .box5{
+      margin: 0px auto;
+      text-align: center;
+      
+      
+
+      
+   }
+   html{
+       width: 100%;
+       margin: 0px ;
+       margin-bottom: 0px;
+       padding: 0px;
+       display: block;
+       
+
+}
+ 
+}
+
